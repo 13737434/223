@@ -1,0 +1,30 @@
+html,body,page{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+page{
+    position: absolute;/*全屏*/
+    font-size: 60px;
+    animation: season 10s infinite;
+    padding-top: 30%;
+    padding-left: 30%;
+}
+#c{
+    background: lightblue;
+}
+#x{
+    background: red;
+}
+
+#q{
+
+}
+#d{
+    background:black ;
+    color: white;
+}
+@keyframes season {
+    0%{opacity: 0}
+    100%{opacity: 100}
+}

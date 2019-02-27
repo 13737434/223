@@ -15,9 +15,17 @@
             from{opacity: 0}/*不透明度*/
             to{opacity: 100}
         }
-        h1,p{
+        @keyframes mySecond { /*动画keyframes*/
+           0%{opacity: 0}
+            50%{opacity: 100}
+            75%{opacity: 50}
+            100%{opacity: 100}
+        }
+        h1{
             animation/*属性*/: myfirst/*关键帧*/ 2s infinite; /*如何变化，不断重复*/
         }
+        p{animation: mySecond 4s infinite}
+
     </style>
 </head>
 <audio src="test/test001.mp3" controls="controls" autoplay="autoplay"></audio>
